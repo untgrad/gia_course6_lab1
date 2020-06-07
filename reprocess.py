@@ -10,9 +10,9 @@ new_dir = "/opt/icons/"
 # set reprocess vars:
 rx_90dg = -90
 rx_size = (128, 128)
-# NOTE: the required format results in black images because the source TIFF
-# files have transparent backaground which original JPG format does not support.
-# PNG would be a more suitable option, but the lab calls for JPEG.
+# NOTE: the required output format results in black images because the source
+# TIFF files have transparent backaground which original JPG format doesn't
+# support. PNG would be a more suitable option, but the lab calls for JPEG.
 rx_frmt = "JPEG"
 
 # gather list of image files:
